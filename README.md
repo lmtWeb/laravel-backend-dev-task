@@ -4,7 +4,6 @@
 
 <li>Create simple blog application according to described business logic.</li>
 <li>Create your repo (preferablly on Github) for laravel-backend-dev-task solution and share it us.</li>
-<li>Deploy your application to <a href="https://www.heroku.com">Heroku</a> and share its public link in project README</li>
 
 <h2>Requirements:</h2>
 <li>Use Laravel 9</li>
@@ -12,7 +11,7 @@
 <li>Follow best practices SOLID, Clean code etc.</li>
 <li>Data storage solution is up to you.</li>
 
-<h3>Optionally you can also use:</h3>
+<h3>Optionally for authentication scaffolding you can use:</h3>
 <li><a href="https://github.com/laravel/breeze">Laravel Breeze</a></li>
 <li><a href="https://github.com/laravel/ui">Laravel UI</a></li>
 
@@ -49,6 +48,7 @@
 <li>id</li>
 
 <h3>Functionality:</h3>
+<li>Authenticate users</li>
 <li>Display a listing of the posts with minimal info included (date, title, status, number of comments and likes)</li>
 <li>Display a single post with detailed info included (date, title, content, status, attached comments, number of likes for post and for each attached comment)</li>
 <li>Create post</li>
