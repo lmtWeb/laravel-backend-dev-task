@@ -1,9 +1,9 @@
-# laravel-backend-dev-task
+# laravel-fullstack-dev-task
 
 <h1>Task:</h1>
 
 <li>Create simple blog application according to described business logic.</li>
-<li>Create your repo (preferablly on Github) for laravel-backend-dev-task solution and share it us.</li>
+<li>Create your repo (preferablly on Github) for laravel-fullstack-dev-task solution and share it us.</li>
 
 <h2>Requirements:</h2>
 <li>Use Laravel 9</li>
@@ -20,12 +20,9 @@
 <li>Blog consists of posts in reverse chronological order</li>
 <li>Draft posts are only visible to its author</li>
 <li>Post can be created by registered user, edited and deleted - only by post author</li>
-<li>Post can be commented and liked by registered user</li>
-<li>Comment can be deleted only by comment author</li>
-<li>Comment can be liked by registered user</li>
-<li>Post/comment can not be liked by same user twice</li>
-<li>Post authors are email notified of comments and likes</li>
-<li>Comment authors are email notified of likes</li>
+<li>Post can be liked/unliked by registered user</li>
+<li>Post can not be liked by same user twice</li>
+<li>Post authors are email notified of likes</li>
 
 <h3>Blog entities:</h3>
 
@@ -36,12 +33,6 @@
 <li>content</li>
 <li>slug</li>
 <li>status (draft, published)</li>
-<li>comments count</li>
-<li>likes count</li>
-
-<h4>Comment:</h4>
-<li>id</li>
-<li>content</li>
 <li>likes count</li>
 
 <h4>Like:</h4>
@@ -49,14 +40,12 @@
 
 <h3>Functionality:</h3>
 <li>Authenticate users</li>
-<li>Display a listing of the posts with minimal info included (date, title, status, number of comments and likes)</li>
-<li>Display a single post with detailed info included (date, title, content, status, attached comments, number of likes for post and for each attached comment)</li>
+<li>Display a listing of the posts with minimal info included (date, title, status, number of likes)</li>
+<li>Display a single post with detailed info included (date, title, content, status, number of likes)</li>
 <li>Create post</li>
 <li>Update post</li>
 <li>Delete post</li>
-<li>Add comment to the post</li>
-<li>Like post</li>
-<li>Like comment</li>
+<li>Like/unlike post</li>
 <li>Provide REST API endpoint for retrieving 5 latest posts</li>
 
 <br>
