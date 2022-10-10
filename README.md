@@ -22,7 +22,7 @@
 <li>Post can be created by registered user, edited and deleted - only by post author</li>
 <li>Post can be liked/unliked by registered user</li>
 <li>Post can not be liked by same user twice</li>
-<li>Post authors are email notified of likes</li>
+<li>Post authors are email notified of likes (plain text email - "Your post was liked {postUrl}")</li>
 
 <h3>Blog entities:</h3>
 
