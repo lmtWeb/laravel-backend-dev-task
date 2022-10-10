@@ -15,6 +15,9 @@
 <li><a href="https://github.com/laravel/breeze">Laravel Breeze</a></li>
 <li><a href="https://github.com/laravel/ui">Laravel UI</a></li>
 
+<h3>Optionally for email sending you can use:</h3>
+<li><a href="https://mailtrap.io">Mailtrap</a> or any other email sandbox service</li>
+
 <h2>Business logic:</h2>
 
 <li>Blog consists of posts in reverse chronological order</li>
