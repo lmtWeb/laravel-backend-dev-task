@@ -20,10 +20,10 @@
 
 <h2>Business logic:</h2>
 
-<li>Blog consists of posts in reverse chronological order</li>
+<li>Blog consists of posts in reverse chronological order by publishing date</li>
 <li>Draft posts are only visible to its author</li>
 <li>Post can be created by registered user, edited and deleted - only by post author</li>
-<li>Post can be liked/unliked by registered user</li>
+<li>Post can be liked/unliked by registered user (including post author)</li>
 <li>Post can not be liked by same user twice</li>
 <li>Post authors are email notified of likes (plain text email - "Your post was liked {postUrl}")</li>
 
@@ -49,7 +49,7 @@
 <li>Update post</li>
 <li>Delete post</li>
 <li>Like/unlike post</li>
-<li>Provide REST API endpoint for retrieving 5 latest posts</li>
+<li>Provide REST API endpoint for retrieving 5 latest published posts</li>
 
 <br>
 <br>
